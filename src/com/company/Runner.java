@@ -4,7 +4,7 @@ public class Runner {
 
     public static void main(String[] args) {
         int[] runnerArray = {8, 6, 7, 5, 3, 0};
-        bubbleSwap(runnerArray);
+        bubbleSort(runnerArray);
         for (int i = 0; i < runnerArray.length; i++)
         {
             System.out.print(runnerArray[i]);
@@ -18,7 +18,7 @@ public class Runner {
         arr[j] = temp;
     }
 
-    public static void bubbleSwap(int[] arr)
+    public static void bubbleSort(int[] arr)
     {
         for (int i = 0; i < arr.length; i++)
         {
