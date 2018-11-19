@@ -7,7 +7,7 @@ public class Runner {
         bubbleSort(runnerArray);
         for (int i = 0; i < runnerArray.length; i++)
         {
-            System.out.print(runnerArray[i]);
+            System.out.print(runnerArray[i] + " ");
         }
     }
 
